@@ -81,6 +81,8 @@ test.describe("Locator syntax rule:", () => {
         // using filter method to find the element
         await page.locator('nb-card').filter({has: page.locator('.status-warning')}).filter({has: page.locator('.text')}).getByRole('textbox', {name: 'Email'}).click();
 
+        // using method locator ..
+        await page.locator(':text-is("Using the Grid")').locator('..').getByRole('textbox', {name: 'Email'}).click();
     })
 })  
 
