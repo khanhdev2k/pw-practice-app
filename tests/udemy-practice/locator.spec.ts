@@ -51,12 +51,36 @@ test.describe("Locator syntax rule:", () => {
 
 
     // Child locators
-    test.only('Chile locators: ', async ({page}) => {
+    test('Child locators: ', async ({page}) => {
         await page.locator('nb-card nb-radio :text-is("Option 1")').click();
         await page.locator('nb-card nb-radio :text-is("Disabled Option")').isVisible();
         await page.locator('nb-card').locator('nb-radio').locator(':text-is("Option 2")').click();
 
         await page.locator('nb-card').getByRole('button', {name: 'Sign in'}).first().click();  
+
+        // get button with index
+        await page.locator('nb-card').nth(3).getByRole('button').click(); // Button submit
+        await page.waitForTimeout(2000);
+        await page.locator('nb-card').nth(2).getByRole('button').click(); // Button send
+        await page.waitForTimeout(2000);
+    })
+
+    test.only('Parrent locators: ', async ({page}) => {
+        // Block form
+        await page.locator('nb-card', {hasText: 'Block form'}).getByText('First Name').fill("Khanh");
+        await page.locator('nb-card', {hasText: 'Block form'}).getByText('Last Name').fill("Le");
+        await page.locator('nb-card', {hasText: 'Block form'}).getByText('Email').fill("khanhleduy99er@gmail.com");
+        await page.locator('nb-card', {hasText: 'Block form'}).getByRole('button', {name: 'Submit'}).click();
+
+        // Form without labels
+        await page.locator('nb-card', {has: page.locator('.status-basic')}).getByRole('button', {name: 'Send'}).click();
+        await page.locator('nb-card', {has: page.locator('.status-basic')}).getByRole('button', {name: 'Send'}).click();
+        await page.locator('nb-card').filter({has: page.locator('.nb-transition')}).getByRole('textbox', {name: 'Recipients'}).click();
+
+
+        // using filter method to find the element
+        await page.locator('nb-card').filter({has: page.locator('.status-warning')}).filter({has: page.locator('.text')}).getByRole('textbox', {name: 'Email'}).click();
+
     })
 })  
 
