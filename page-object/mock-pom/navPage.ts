@@ -1,10 +1,12 @@
-import { Page } from "@playwright/test";
+import { Locator, Page } from "@playwright/test";
 
 export class NavPage {
     readonly page: Page;
+    readonly buttonLogin: Locator
 
     constructor(page: Page) {
         this.page = page
+        this.buttonLogin = page.getByRole('button', {name: 'Login'});
     }
 
     async navToMockUrl() {
@@ -14,12 +16,12 @@ export class NavPage {
     async qaLogin() {
         await this.page.getByPlaceholder('Enter user name').fill('qa')
         await this.page.getByPlaceholder('Enter password').fill('qa123456');
-        await this.page.getByRole('button', {name: 'Login'}).click();
+        await this.buttonLogin.click();
     }
     
     async loginWithTestUser() {
         await this.page.getByPlaceholder('Enter login name').fill('VNQA_KL001_TZS');
-        await this.page.getByRole('button', {name: 'Login'}).click();
+        await this.buttonLogin.click();
         await this.page.waitForTimeout(2000);
     }
     
