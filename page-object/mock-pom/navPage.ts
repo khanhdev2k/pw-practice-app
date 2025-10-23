@@ -1,11 +1,11 @@
 import { Locator, Page } from "@playwright/test";
+import { Helper } from "./helper";
 
-export class NavPage {
-    readonly page: Page;
+export class NavPage  extends Helper{
     readonly buttonLogin: Locator
 
     constructor(page: Page) {
-        this.page = page
+        super(page);
         this.buttonLogin = page.getByRole('button', {name: 'Login'});
     }
 
@@ -22,7 +22,7 @@ export class NavPage {
     async loginWithTestUser() {
         await this.page.getByPlaceholder('Enter login name').fill('VNQA_KL001_TZS');
         await this.buttonLogin.click();
-        await this.page.waitForTimeout(2000);
+        await this.waitSeconnds(2);
     }
     
     async runGameOanTuTi() {
@@ -31,7 +31,7 @@ export class NavPage {
         const playInNewTab = this.page.locator('.form-check', {hasText: 'Play in New Tab'});
 
         await searchBox.fill('Viet Nam');
-        await this.page.waitForTimeout(2000);
+        await this.waitSeconnds(2);
         await playInNewTab.click();
         await oanTuTi.click()
     }

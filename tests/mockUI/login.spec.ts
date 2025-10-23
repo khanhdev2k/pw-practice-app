@@ -1,19 +1,21 @@
 import {test} from '@playwright/test';
+import { PageManager } from '../../page-object/mock-pom/pagaManager';
+
 
 test.beforeEach(async ({page}) => {
-    await page.goto("https://uatmw.kmgamesdev.net/");
+    const pageManager = new PageManager(page);
+    await pageManager.getNavPage().navToMockUrl();
 })
 
 test.describe("Login page: ", () => {
     test.beforeEach('Login with Mock wallet', async ({page}) => {
-        await page.getByPlaceholder('Enter user name').fill('qa')
-        await page.getByPlaceholder('Enter password').fill('qa123456');
-        await page.getByRole('button', {name: 'Login'}).click();
+        const pageManager = new PageManager(page);
+        await pageManager.getNavPage().qaLogin();
+        await pageManager.getNavPage().loginWithTestUser();
     })
 
     test('Login with account: ' + 'VNQA_KL001_TZS', async ({page}) => {
-        await page.getByPlaceholder('Enter login name').fill('VNQA_KL001_TZS');
-        await page.getByRole('button', {name: 'Login'}).click();
-        await page.waitForTimeout(2000);
+        const pageManager = new PageManager(page);
+        await pageManager.getNavPage().runGameOanTuTi();
     })
 })
