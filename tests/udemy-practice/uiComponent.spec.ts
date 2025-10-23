@@ -60,4 +60,10 @@ test.describe("Nav to Modal & Overlays", () => {
         const listItem = page.locator('nb-option-list nb-option');
         await listItem.getByText('Dark').click();
     })
+
+    test('Web table: ', async ({page}) => {
+        await page.getByText('Tables & Data').click();
+        await page.getByText('Smart Table').click();
+    })
 })
+    

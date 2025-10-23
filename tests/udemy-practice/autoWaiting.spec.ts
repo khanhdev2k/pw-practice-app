@@ -1,26 +1,20 @@
 import {test, expect} from '@playwright/test';
+import { NavPage } from '../../page-object/mock-pom/navPage';
+
+let navPage: NavPage;
 
 test.beforeEach(async ({page}) => {
-    await page.goto("https://uatmw.kmgamesdev.net/");
+    navPage = new NavPage(page);
+    await navPage.navToMockUrl();
 })
 test.describe("Login page: ", () => {
     test.beforeEach('Login with Mock wallet', async ({page}) => {
-        await page.getByPlaceholder('Enter user name').fill('qa')
-        await page.getByPlaceholder('Enter password').fill('qa123456');
-        await page.getByRole('button', {name: 'Login'}).click();
-        await page.getByPlaceholder('Enter login name').fill('VNQA_KL001_TZS');
-        await page.getByRole('button', {name: 'Login'}).click();
-        await page.waitForTimeout(2000);
+        // navPage is created in the top-level beforeEach
+        await navPage.qaLogin();
+        await navPage.loginWithTestUser();
     })
 
     test('Timeout example', async ({page}) => {
-        const searchBox = page.getByPlaceholder('search by game');
-        const oanTuTi = page.getByRole('button', {name: 'Launch'}).first();
-        const playInNewTab = page.locator('.form-check', {hasText: 'Play in New Tab'});
-
-        await searchBox.fill('Viet Nam');
-        await page.waitForTimeout(2000);
-        await playInNewTab.click();
-        await oanTuTi.click()
+        await navPage.runGameOanTuTi();
     })
 })
