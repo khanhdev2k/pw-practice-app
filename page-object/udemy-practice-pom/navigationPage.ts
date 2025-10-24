@@ -13,16 +13,4 @@ export class NavigationPage {
         await this.page.getByText('Form Layouts').click();
     }
 
-    // async smartTablePage( ){
-    //     await this.selectGrMenuItem('Modal & Overlays');
-    //     await this.page.getByText('Smart Table').click();
-    // }
-
-    // private async selectGrMenuItem(menuItem: string) {
-    //     const grMenuItem = this.page.getByTitle(menuItem)
-    //     const expanedState = await grMenuItem.getAttribute('aria-expanded');
-    //     if(expanedState === 'false') {
-    //         await grMenuItem.click();
-    //     }
-    // }
 }

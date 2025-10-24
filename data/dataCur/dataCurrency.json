@@ -1,0 +1,2011 @@
+{
+  "THB": {
+    "casual": "10.0 - 200.0",
+    "expert": "20.0 - 500.0",
+    "highRoller": "100.0 - 5000.0",
+    "chipOptions": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      100,
+      200,
+      300,
+      500,
+      1000,
+      2000
+    ],
+    "symbol": "฿",
+    "mockUser": "VNQA_KL001_THB"
+  },
+  "GSK": {
+    "casual": "0.5 - 10.0",
+    "expert": "2.0 - 20.0",
+    "highRoller": "5.0 - 200.0",
+    "chipOptions": [
+      0.5,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      15,
+      30,
+      50
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_GSK"
+  },
+  "SGD": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_SGD"
+  },
+  "MYR": {
+    "casual": "1.0 - 50.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "50.0 - 1000.0",
+    "chipOptions": [
+      1,
+      3,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      75,
+      100,
+      150,
+      200,
+      300
+    ],
+    "symbol": "RM",
+    "mockUser": "VNQA_KL001_MYR"
+  },
+  "HKD": {
+    "casual": "1.0 - 250.0",
+    "expert": "10.0 - 500.0",
+    "highRoller": "20.0 - 5000.0",
+    "chipOptions": [
+      1,
+      10,
+      15,
+      20,
+      50,
+      100,
+      200,
+      400,
+      1000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_HKD"
+  },
+  "CNY": {
+    "casual": "5.0 - 250.0",
+    "expert": "10.0 - 500.0",
+    "highRoller": "20.0 - 5000.0",
+    "chipOptions": [
+      5,
+      10,
+      15,
+      20,
+      50,
+      100,
+      200,
+      400,
+      1000
+    ],
+    "symbol": "¥",
+    "mockUser": "VNQA_KL001_CNY"
+  },
+  "JPY": {
+    "casual": "30.0 - 500.0",
+    "expert": "50.0 - 1500.0",
+    "highRoller": "350.0 - 15000.0",
+    "chipOptions": [
+      30,
+      50,
+      70,
+      80,
+      100,
+      200,
+      350,
+      500,
+      1000,
+      1500,
+      3000,
+      5000
+    ],
+    "symbol": "¥",
+    "mockUser": "VNQA_KL001_JPY"
+  },
+  "AUD": {
+    "casual": "1.0 - 50.0",
+    "expert": "5.0 - 100.0",
+    "highRoller": "10.0 - 500.0",
+    "chipOptions": [
+      1,
+      2,
+      5,
+      7,
+      10,
+      15,
+      25,
+      50,
+      100,
+      200
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_AUD"
+  },
+  "IDR": {
+    "casual": "0.8 - 100.0",
+    "expert": "10.0 - 250.0",
+    "highRoller": "50.0 - 2500.0",
+    "chipOptions": [
+      0.8,
+      5,
+      10,
+      15,
+      30,
+      40,
+      50,
+      100,
+      150,
+      200,
+      300,
+      500
+    ],
+    "symbol": "Rp",
+    "mockUser": "VNQA_KL001_IDR"
+  },
+  "USD": {
+    "casual": "0.5 - 10.0",
+    "expert": "1.0 - 20.0",
+    "highRoller": "2.0 - 100.0",
+    "chipOptions": [
+      0.5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      20
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_USD"
+  },
+  "VND": {
+    "casual": "1.0 - 150.0",
+    "expert": "15.0 - 350.0",
+    "highRoller": "50.0 - 3500.0",
+    "chipOptions": [
+      1,
+      5,
+      10,
+      15,
+      30,
+      40,
+      50,
+      100,
+      150,
+      200,
+      300,
+      500
+    ],
+    "symbol": "₫",
+    "mockUser": "VNQA_KL001_VND"
+  },
+  "PTI": {
+    "casual": "800.0 - 100000.0",
+    "expert": "10000.0 - 250000.0",
+    "highRoller": "50000.0 - 2500000.0",
+    "chipOptions": [
+      800,
+      2500,
+      5000,
+      10000,
+      20000,
+      30000,
+      40000,
+      50000,
+      100000,
+      200000,
+      300000,
+      400000,
+      500000
+    ],
+    "symbol": "Rp",
+    "mockUser": "VNQA_KL001_PTI"
+  },
+  "PTV": {
+    "casual": "1000.0 - 150000.0",
+    "expert": "15000.0 - 350000.0",
+    "highRoller": "100000.0 - 3000000.0",
+    "chipOptions": [
+      1000,
+      5000,
+      10000,
+      15000,
+      30000,
+      50000,
+      75000,
+      100000,
+      150000,
+      200000,
+      300000,
+      500000,
+      1000000
+    ],
+    "symbol": "₫",
+    "mockUser": "VNQA_KL001_PTV"
+  },
+  "INR": {
+    "casual": "5.0 - 500.0",
+    "expert": "50.0 - 1000.0",
+    "highRoller": "200.0 - 10000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      30,
+      40,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      600,
+      1200,
+      2400
+    ],
+    "symbol": "₹",
+    "mockUser": "VNQA_KL001_INR"
+  },
+  "GBP": {
+    "casual": "1.0 - 50.0",
+    "expert": "2.0 - 100.0",
+    "highRoller": "4.0 - 400.0",
+    "chipOptions": [
+      1,
+      2,
+      4,
+      8,
+      10,
+      15,
+      25,
+      50
+    ],
+    "symbol": "£",
+    "mockUser": "VNQA_KL001_GBP"
+  },
+  "KHR": {
+    "casual": "1.0 - 50.0",
+    "expert": "2.0 - 100.0",
+    "highRoller": "4.0 - 400.0",
+    "chipOptions": [
+      1,
+      2,
+      4,
+      8,
+      10,
+      15,
+      25,
+      50
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_KHR"
+  },
+  "PHP": {
+    "casual": "15.0 - 300.0",
+    "expert": "30.0 - 750.0",
+    "highRoller": "150.0 - 7500.0",
+    "chipOptions": [
+      15,
+      20,
+      30,
+      40,
+      50,
+      100,
+      150,
+      300,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "symbol": "₱",
+    "mockUser": "VNQA_KL001_PHP"
+  },
+  "EUR": {
+    "casual": "0.2 - 15.0",
+    "expert": "2.0 - 35.0",
+    "highRoller": "8.0 - 250.0",
+    "chipOptions": [
+      0.2,
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      50,
+      80
+    ],
+    "symbol": "€",
+    "mockUser": "VNQA_KL001_EUR"
+  },
+  "MMKK": {
+    "casual": "0.1 - 5.0",
+    "expert": "1.0 - 10.0",
+    "highRoller": "2.0 - 50.0",
+    "chipOptions": [
+      0.1,
+      0.5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      15
+    ],
+    "symbol": "K",
+    "mockUser": "VNQA_KL001_MMKK"
+  },
+  "MMK": {
+    "casual": "100.0 - 5000.0",
+    "expert": "1000.0 - 10000.0",
+    "highRoller": "2000.0 - 50000.0",
+    "chipOptions": [
+      100,
+      500,
+      700,
+      900,
+      1000,
+      1250,
+      1500,
+      1750,
+      2000,
+      3000,
+      4000,
+      5000,
+      10000,
+      15000
+    ],
+    "symbol": "K",
+    "mockUser": "VNQA_KL001_MMK"
+  },
+  "AED": {
+    "casual": "2.0 - 200.0",
+    "expert": "5.0 - 500.0",
+    "highRoller": "10.0 - 2000.0",
+    "chipOptions": [
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500
+    ],
+    "symbol": "د.إ",
+    "mockUser": "VNQA_KL001_AED"
+  },
+  "COP": {
+    "casual": "2000.0 - 40000.0",
+    "expert": "8000.0 - 120000.0",
+    "highRoller": "20000.0 - 800000.0",
+    "chipOptions": [
+      2000,
+      3000,
+      4000,
+      8000,
+      10000,
+      15000,
+      20000,
+      40000,
+      60000,
+      80000,
+      120000,
+      150000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_COP"
+  },
+  "MOP": {
+    "casual": "4.0 - 80.0",
+    "expert": "8.0 - 160.0",
+    "highRoller": "16.0 - 800.0",
+    "chipOptions": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      40,
+      80,
+      120,
+      160
+    ],
+    "symbol": "P",
+    "mockUser": "VNQA_KL001_MOP"
+  },
+  "CAD": {
+    "casual": "1.0 - 50.0",
+    "expert": "5.0 - 100.0",
+    "highRoller": "10.0 - 500.0",
+    "chipOptions": [
+      1,
+      2,
+      5,
+      7,
+      10,
+      15,
+      25,
+      50,
+      100,
+      200
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_CAD"
+  },
+  "BDT": {
+    "casual": "5.0 - 600.0",
+    "expert": "60.0 - 1500.0",
+    "highRoller": "300.0 - 15000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      30,
+      60,
+      90,
+      120,
+      150,
+      300,
+      400,
+      600,
+      1000,
+      2000,
+      4000
+    ],
+    "symbol": "৳",
+    "mockUser": "VNQA_KL001_BDT"
+  },
+  "RUB": {
+    "casual": "25.0 - 500.0",
+    "expert": "50.0 - 1250.0",
+    "highRoller": "250.0 - 12500.0",
+    "chipOptions": [
+      25,
+      50,
+      75,
+      100,
+      150,
+      250,
+      500,
+      1000,
+      2000,
+      3000,
+      5000
+    ],
+    "symbol": "₽",
+    "mockUser": "VNQA_KL001_RUB"
+  },
+  "NPR": {
+    "casual": "30.0 - 500.0",
+    "expert": "50.0 - 1500.0",
+    "highRoller": "350.0 - 15000.0",
+    "chipOptions": [
+      30,
+      50,
+      70,
+      80,
+      100,
+      200,
+      350,
+      500,
+      1000,
+      1500,
+      3000,
+      5000
+    ],
+    "symbol": "₨",
+    "mockUser": "VNQA_KL001_NPR"
+  },
+  "MXN": {
+    "casual": "5.0 - 100.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "50.0 - 2000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      25,
+      30,
+      50,
+      100,
+      200,
+      300,
+      500,
+      1000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_MXN"
+  },
+  "BRL": {
+    "casual": "5.0 - 50.0",
+    "expert": "10.0 - 100.0",
+    "highRoller": "20.0 - 400.0",
+    "chipOptions": [
+      5,
+      7,
+      9,
+      10,
+      15,
+      20,
+      30,
+      40,
+      50,
+      100,
+      200
+    ],
+    "symbol": "R$",
+    "mockUser": "VNQA_KL001_BRL"
+  },
+  "PKR": {
+    "casual": "50.0 - 1000.0",
+    "expert": "100.0 - 2500.0",
+    "highRoller": "500.0 - 25000.0",
+    "chipOptions": [
+      50,
+      75,
+      100,
+      150,
+      200,
+      300,
+      500,
+      750,
+      1000,
+      2000,
+      3000,
+      5000
+    ],
+    "symbol": "₨",
+    "mockUser": "VNQA_KL001_PKR"
+  },
+  "KRW": {
+    "casual": "500.0 - 10000.0",
+    "expert": "1000.0 - 20000.0",
+    "highRoller": "5000.0 - 200000.0",
+    "chipOptions": [
+      500,
+      750,
+      1000,
+      1500,
+      2000,
+      3000,
+      5000,
+      7000,
+      20000,
+      30000,
+      50000,
+      100000
+    ],
+    "symbol": "₩",
+    "mockUser": "VNQA_KL001_KRW"
+  },
+  "TRY": {
+    "casual": "2.0 - 10.0",
+    "expert": "5.0 - 50.0",
+    "highRoller": "50.0 - 1000.0",
+    "chipOptions": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      10,
+      15,
+      25,
+      50,
+      75,
+      100,
+      200,
+      300,
+      400
+    ],
+    "symbol": "₺",
+    "mockUser": "VNQA_KL001_TRY"
+  },
+  "LKR": {
+    "casual": "50.0 - 1000.0",
+    "expert": "100.0 - 2500.0",
+    "highRoller": "500.0 - 25000.0",
+    "chipOptions": [
+      50,
+      75,
+      100,
+      150,
+      200,
+      300,
+      500,
+      750,
+      1000,
+      2000,
+      3000,
+      5000
+    ],
+    "symbol": "₨",
+    "mockUser": "VNQA_KL001_LKR"
+  },
+  "LAKK": {
+    "casual": "2.0 - 10.0",
+    "expert": "5.0 - 100.0",
+    "highRoller": "10.0 - 1000.0",
+    "chipOptions": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      20,
+      30,
+      50,
+      100,
+      200
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_LAKK"
+  },
+  "LAK": {
+    "casual": "2000.0 - 10000.0",
+    "expert": "5000.0 - 100000.0",
+    "highRoller": "10000.0 - 1000000.0",
+    "chipOptions": [
+      2000,
+      3000,
+      4000,
+      5000,
+      6000,
+      8000,
+      10000,
+      20000,
+      30000,
+      40000,
+      100000,
+      200000
+    ],
+    "symbol": "₭",
+    "mockUser": "VNQA_KL001_LAK"
+  },
+  "BND": {
+    "casual": "0.5 - 10.0",
+    "expert": "1.0 - 20.0",
+    "highRoller": "2.0 - 100.0",
+    "chipOptions": [
+      0.5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      20
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_BND"
+  },
+  "TND": {
+    "casual": "1.0 - 20.0",
+    "expert": "2.0 - 50.0",
+    "highRoller": "10.0 - 500.0",
+    "chipOptions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      20,
+      30,
+      50,
+      100,
+      200
+    ],
+    "symbol": "د.ت",
+    "mockUser": "VNQA_KL001_TND"
+  },
+  "UAH": {
+    "casual": "10.0 - 200.0",
+    "expert": "20.0 - 500.0",
+    "highRoller": "100.0 - 5000.0",
+    "chipOptions": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      100,
+      200,
+      300,
+      500,
+      1000,
+      2000
+    ],
+    "symbol": "₴",
+    "mockUser": "VNQA_KL001_UAH"
+  },
+  "KES": {
+    "casual": "30.0 - 1000.0",
+    "expert": "100.0 - 2000.0",
+    "highRoller": "500.0 - 20000.0",
+    "chipOptions": [
+      30,
+      50,
+      100,
+      150,
+      200,
+      300,
+      400,
+      500,
+      1000,
+      2000,
+      3000,
+      4000,
+      5000
+    ],
+    "symbol": "KSh",
+    "mockUser": "VNQA_KL001_KES"
+  },
+  "AMD": {
+    "casual": "100.0 - 1500.0",
+    "expert": "150.0 - 4500.0",
+    "highRoller": "1000.0 - 30000.0",
+    "chipOptions": [
+      100,
+      150,
+      200,
+      250,
+      300,
+      450,
+      1000,
+      1500,
+      3000,
+      4500,
+      9000,
+      12000
+    ],
+    "symbol": "դր.",
+    "mockUser": "VNQA_KL001_AMD"
+  },
+  "NGN": {
+    "casual": "200.0 - 5000.0",
+    "expert": "500.0 - 10000.0",
+    "highRoller": "1000.0 - 45000.0",
+    "chipOptions": [
+      200,
+      300,
+      400,
+      500,
+      600,
+      1000,
+      2000,
+      2500,
+      3000,
+      6000,
+      15000
+    ],
+    "symbol": "₦",
+    "mockUser": "VNQA_KL001_NGN"
+  },
+  "ZAR": {
+    "casual": "10.0 - 150.0",
+    "expert": "20.0 - 300.0",
+    "highRoller": "40.0 - 2000.0",
+    "chipOptions": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60,
+      100,
+      200,
+      500
+    ],
+    "symbol": "R",
+    "mockUser": "VNQA_KL001_ZAR"
+  },
+  "GHS": {
+    "casual": "5.0 - 100.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "20.0 - 1500.0",
+    "chipOptions": [
+      5,
+      7,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100,
+      200,
+      400
+    ],
+    "symbol": "₵",
+    "mockUser": "VNQA_KL001_GHS"
+  },
+  "CLP": {
+    "casual": "300.0 - 8000.0",
+    "expert": "1600.0 - 32000.0",
+    "highRoller": "4000.0 - 160000.0",
+    "chipOptions": [
+      300,
+      500,
+      800,
+      1600,
+      2000,
+      3000,
+      4000,
+      8000,
+      12000,
+      24000,
+      40000,
+      60000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_CLP"
+  },
+  "PEN": {
+    "casual": "2.0 - 30.0",
+    "expert": "8.0 - 100.0",
+    "highRoller": "15.0 - 700.0",
+    "chipOptions": [
+      2,
+      3,
+      4,
+      6,
+      8,
+      10,
+      15,
+      20,
+      50,
+      100,
+      150,
+      300
+    ],
+    "symbol": "S/.",
+    "mockUser": "VNQA_KL001_PEN"
+  },
+  "CHF": {
+    "casual": "0.5 - 10.0",
+    "expert": "1.0 - 20.0",
+    "highRoller": "1.5 - 100",
+    "chipOptions": [
+      0.5,
+      1,
+      1.5,
+      2,
+      2.5,
+      5,
+      10,
+      20
+    ],
+    "symbol": "CHF",
+    "mockUser": "VNQA_KL001_CHF"
+  },
+  "KZT": {
+    "casual": "200.0 - 4000.0",
+    "expert": "400.0 - 8000.0",
+    "highRoller": "800.0 - 40000.0",
+    "chipOptions": [
+      200,
+      300,
+      400,
+      800,
+      1200,
+      1500,
+      2000,
+      4000,
+      6000
+    ],
+    "symbol": "₸",
+    "mockUser": "VNQA_KL001_KZT"
+  },
+  "MNT": {
+    "casual": "2000.0 - 40000.0",
+    "expert": "4000.0 - 80000.0",
+    "highRoller": "8000.0 - 400000.0",
+    "chipOptions": [
+      2000,
+      3000,
+      4000,
+      8000,
+      12000,
+      15000,
+      20000,
+      40000,
+      80000
+    ],
+    "symbol": "₮",
+    "mockUser": "VNQA_KL001_MNT"
+  },
+  "NOK": {
+    "casual": "5.0 - 100.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "20.0 - 1000.0",
+    "chipOptions": [
+      5,
+      7,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100,
+      150,
+      200
+    ],
+    "symbol": "kr",
+    "mockUser": "VNQA_KL001_NOK"
+  },
+  "NZD": {
+    "casual": "1.0 - 20.0",
+    "expert": "2.0 - 40.0",
+    "highRoller": "3.0 - 160.0",
+    "chipOptions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      16,
+      32
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_NZD"
+  },
+  "SEK": {
+    "casual": "5.0 - 100.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "20.0 - 1000.0",
+    "chipOptions": [
+      5,
+      7,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100,
+      200,
+      400
+    ],
+    "symbol": "kr",
+    "mockUser": "VNQA_KL001_SEK"
+  },
+  "TZS": {
+    "casual": "1500.0 - 24000.0",
+    "expert": "2500.0 - 50000.0",
+    "highRoller": "5000.0 - 245000.0",
+    "chipOptions": [
+      1500,
+      2000,
+      2500,
+      3500,
+      5000,
+      7500,
+      12000,
+      24000,
+      36000,
+      50000
+    ],
+    "symbol": "TSh",
+    "mockUser": "VNQA_KL001_TZS"
+  },
+  "ZMW": {
+    "casual": "10.0 - 180.0",
+    "expert": "20.0 - 350.0",
+    "highRoller": "30.0 - 2000.0",
+    "chipOptions": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      100,
+      180,
+      350
+    ],
+    "symbol": "ZK",
+    "mockUser": "VNQA_KL001_ZMW"
+  },
+  "ZWD": {
+    "casual": "200.0 - 3600.0",
+    "expert": "400.0 - 7200.0",
+    "highRoller": "800.0 - 36000.0",
+    "chipOptions": [
+      200,
+      400,
+      600,
+      800,
+      1000,
+      1200,
+      2400,
+      4800,
+      8000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_ZWD"
+  },
+  "UCN": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_UCN"
+  },
+  "eUSD": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_eUSD"
+  },
+  "USDT": {
+    "casual": "1.0 - 10.0",
+    "expert": "2.0 - 20.0",
+    "highRoller": "5.0 - 200.0",
+    "chipOptions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      15,
+      30,
+      50
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_USDT"
+  },
+  "USDC": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_USDC"
+  },
+  "MATIC": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_MATIC"
+  },
+  "mBNB": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_mBNB"
+  },
+  "Sats": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_Sats"
+  },
+  "Gwei": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_Gwei"
+  },
+  "ARS": {
+    "casual": "400.0 - 4000.0",
+    "expert": "1600.0 - 16000.0",
+    "highRoller": "4000.0 - 80000.0",
+    "chipOptions": [
+      400,
+      500,
+      600,
+      800,
+      1200,
+      1600,
+      2200,
+      2800,
+      3400,
+      4000,
+      4600,
+      8000,
+      16000,
+      24000,
+      32000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_ARS"
+  },
+  "GC": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_GC"
+  },
+  "DZD": {
+    "casual": "70.0 - 700.0",
+    "expert": "200.0 - 2000.0",
+    "highRoller": "600.0 - 12000.0",
+    "chipOptions": [
+      70,
+      90,
+      120,
+      140,
+      200,
+      300,
+      400,
+      500,
+      600,
+      800,
+      1200,
+      1600,
+      2000,
+      4200
+    ],
+    "symbol": "د.ج",
+    "mockUser": "VNQA_KL001_DZD"
+  },
+  "EGP": {
+    "casual": "25.0 - 250.0",
+    "expert": "100.0 - 1000.0",
+    "highRoller": "250.0 - 5000.0",
+    "chipOptions": [
+      25,
+      50,
+      100,
+      150,
+      200,
+      250,
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ],
+    "symbol": "ج.م",
+    "mockUser": "VNQA_KL001_EGP"
+  },
+  "ETB": {
+    "casual": "30.0 - 300.0",
+    "expert": "120.0 - 1200.0",
+    "highRoller": "300.0 - 6000.0",
+    "chipOptions": [
+      30,
+      60,
+      90,
+      120,
+      200,
+      300,
+      600,
+      900,
+      1200,
+      2000,
+      3000
+    ],
+    "symbol": "Br",
+    "mockUser": "VNQA_KL001_ETB"
+  },
+  "FRF": {
+    "casual": "3.0 - 30.0",
+    "expert": "12.0 - 120.0",
+    "highRoller": "30.0 - 600.0",
+    "chipOptions": [
+      3,
+      6,
+      9,
+      12,
+      20,
+      30,
+      60,
+      90,
+      120,
+      200,
+      300
+    ],
+    "symbol": "₣",
+    "mockUser": "VNQA_KL001_FRF"
+  },
+  "MAD": {
+    "casual": "5.0 - 50.0",
+    "expert": "20.0 - 200.0",
+    "highRoller": "50.0 - 1000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      30,
+      40,
+      50,
+      100,
+      200,
+      300,
+      400,
+      500
+    ],
+    "symbol": "د.م.",
+    "mockUser": "VNQA_KL001_MAD"
+  },
+  "UGX": {
+    "casual": "2000.0 - 20000.0",
+    "expert": "8000.0 - 80000.0",
+    "highRoller": "20000.0 - 400000.0",
+    "chipOptions": [
+      2000,
+      4000,
+      8000,
+      12000,
+      16000,
+      20000,
+      40000,
+      80000,
+      120000,
+      160000,
+      200000
+    ],
+    "symbol": "USh",
+    "mockUser": "VNQA_KL001_UGX"
+  },
+  "HNL": {
+    "casual": "5.0 - 100.0",
+    "expert": "20.0 - 200.0",
+    "highRoller": "50.0 - 1000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      30,
+      40,
+      50,
+      100,
+      200,
+      300,
+      400,
+      500
+    ],
+    "symbol": "L",
+    "mockUser": "VNQA_KL001_HNL"
+  },
+  "GTQ": {
+    "casual": "1.0 - 20.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "40.0 - 1600.0",
+    "chipOptions": [
+      1,
+      5,
+      10,
+      20,
+      40,
+      80,
+      100,
+      200,
+      300,
+      400
+    ],
+    "symbol": "Q",
+    "mockUser": "VNQA_KL001_GTQ"
+  },
+  "NIO": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "C$",
+    "mockUser": "VNQA_KL001_NIO"
+  },
+  "CRC": {
+    "casual": "100.0 - 2000.0",
+    "expert": "500.0 - 10000.0",
+    "highRoller": "2500.0 - 100000.0",
+    "chipOptions": [
+      100,
+      300,
+      500,
+      1000,
+      2500,
+      5000,
+      10000,
+      15000,
+      20000,
+      25000
+    ],
+    "symbol": "₡",
+    "mockUser": "VNQA_KL001_CRC"
+  },
+  "BOB": {
+    "casual": "1.0 - 20.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "40.0 - 1600.0",
+    "chipOptions": [
+      1,
+      5,
+      10,
+      20,
+      40,
+      80,
+      100,
+      200,
+      300,
+      400
+    ],
+    "symbol": "Bs.",
+    "mockUser": "VNQA_KL001_BOB"
+  },
+  "PYG": {
+    "casual": "1000.0 - 20000.0",
+    "expert": "10000.0 - 60000.0",
+    "highRoller": "40000.0 - 100000.0",
+    "chipOptions": [
+      1000,
+      2000,
+      5000,
+      8000,
+      10000,
+      20000,
+      30000,
+      40000,
+      50000,
+      60000,
+      70000,
+      80000,
+      100000
+    ],
+    "symbol": "₲",
+    "mockUser": "VNQA_KL001_PYG"
+  },
+  "UYU": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_UYU"
+  },
+  "VES": {
+    "casual": "40.0 - 800.0",
+    "expert": "200.0 - 4000.0",
+    "highRoller": "400.0 - 15000.0",
+    "chipOptions": [
+      40,
+      80,
+      200,
+      400,
+      600,
+      800,
+      1000,
+      1500,
+      2000,
+      4000
+    ],
+    "symbol": "Bs",
+    "mockUser": "VNQA_KL001_VES"
+  },
+  "SVC": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "₡",
+    "mockUser": "VNQA_KL001_SVC"
+  },
+  "PGK": {
+    "casual": "1.0 - 50.0",
+    "expert": "5.0 - 100.0",
+    "highRoller": "10.0 - 500.0",
+    "chipOptions": [
+      1,
+      2,
+      5,
+      7,
+      10,
+      15,
+      25,
+      50,
+      100,
+      200
+    ],
+    "symbol": "K",
+    "mockUser": "VNQA_KL001_PGK"
+  },
+  "PLN": {
+    "casual": "1.0 - 50.0",
+    "expert": "5.0 - 100.0",
+    "highRoller": "10.0 - 500.0",
+    "chipOptions": [
+      1,
+      2,
+      5,
+      7,
+      10,
+      15,
+      25,
+      50,
+      100,
+      200
+    ],
+    "symbol": "zł",
+    "mockUser": "VNQA_KL001_PLN"
+  },
+  "XOF": {
+    "casual": "500.0 - 5000.0",
+    "expert": "1000.0 - 10000.0",
+    "highRoller": "2000.0 - 50000.0",
+    "chipOptions": [
+      500,
+      700,
+      900,
+      1000,
+      1250,
+      1500,
+      1750,
+      2000,
+      3000,
+      4000,
+      5000,
+      10000,
+      15000
+    ],
+    "symbol": "F.CFA",
+    "mockUser": "VNQA_KL001_XOF"
+  },
+  "BYN": {
+    "casual": "0.3 - 10.0",
+    "expert": "5.0 - 100.0",
+    "highRoller": "10.0 - 200.0",
+    "chipOptions": [
+      0.3,
+      1,
+      2,
+      3,
+      5,
+      10,
+      15,
+      20,
+      30,
+      50,
+      100
+    ],
+    "symbol": "Br",
+    "mockUser": "VNQA_KL001_BYN"
+  },
+  "VUC": {
+    "casual": null,
+    "expert": null,
+    "highRoller": null,
+    "chipOptions": null,
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_VUC"
+  },
+  "GEL": {
+    "casual": "2.5 - 100.0",
+    "expert": "5.0 - 200.0",
+    "highRoller": "25.0 - 2000.0",
+    "chipOptions": [
+      2.5,
+      5,
+      10,
+      15,
+      25,
+      50,
+      100,
+      150,
+      250,
+      500,
+      1000
+    ],
+    "symbol": "GEL",
+    "mockUser": "VNQA_KL001_GEL"
+  },
+  "OMR": {
+    "casual": "0.2 - 4.0",
+    "expert": "0.8 - 16.0",
+    "highRoller": "4.0 - 80.0",
+    "chipOptions": [
+      0.2,
+      0.5,
+      0.8,
+      1,
+      2,
+      4,
+      8,
+      10,
+      20,
+      30,
+      40
+    ],
+    "symbol": "﷼",
+    "mockUser": "VNQA_KL001_OMR"
+  },
+  "SAR": {
+    "casual": "2.0 - 100.0",
+    "expert": "8.0 - 320.0",
+    "highRoller": "20.0 - 1600.0",
+    "chipOptions": [
+      2,
+      4,
+      8,
+      12,
+      20,
+      40,
+      80,
+      120,
+      200,
+      400,
+      800
+    ],
+    "symbol": "ريال",
+    "mockUser": "VNQA_KL001_SAR"
+  },
+  "TSC": {
+    "casual": "500.0 - 5000.0",
+    "expert": "1000.0 - 10000.0",
+    "highRoller": "2000.0 - 50000.0",
+    "chipOptions": [
+      500,
+      700,
+      900,
+      1000,
+      1250,
+      1500,
+      1750,
+      2000,
+      3000,
+      4000,
+      5000,
+      10000,
+      15000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_TSC"
+  },
+  "BHD": {
+    "casual": "0.1 - 2.0",
+    "expert": "0.7 - 14.0",
+    "highRoller": "3.0 - 100.0",
+    "chipOptions": [
+      0.1,
+      0.5,
+      0.7,
+      1,
+      1.5,
+      2,
+      3,
+      10,
+      20,
+      30,
+      50,
+      80
+    ],
+    "symbol": "د.ب",
+    "mockUser": "VNQA_KL001_BHD"
+  },
+  "KWD": {
+    "casual": "0.15 - 3.0",
+    "expert": "0.6 - 12.0",
+    "highRoller": "1.5 - 60.0",
+    "chipOptions": [
+      0.15,
+      0.3,
+      0.6,
+      0.8,
+      1,
+      1.5,
+      5,
+      10,
+      20,
+      30,
+      50
+    ],
+    "symbol": "د.ك",
+    "mockUser": "VNQA_KL001_KWD"
+  },
+  "TGC": {
+    "casual": "500.0 - 5000.0",
+    "expert": "1000.0 - 10000.0",
+    "highRoller": "2000.0 - 50000.0",
+    "chipOptions": [
+      500,
+      700,
+      900,
+      1000,
+      1250,
+      1500,
+      1750,
+      2000,
+      3000,
+      4000,
+      5000,
+      10000,
+      15000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_TGC"
+  },
+  "COPK": {
+    "casual": "2.0 - 40.0",
+    "expert": "8.0 - 120.0",
+    "highRoller": "20.0 - 800.0",
+    "chipOptions": [
+      2,
+      3,
+      4,
+      8,
+      10,
+      15,
+      20,
+      40,
+      60,
+      80,
+      120,
+      150
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_COPK"
+  },
+  "IRR": {
+    "casual": "10000.0 - 200000.0",
+    "expert": "100000.0 - 2000000.0",
+    "highRoller": "200000.0 - 4000000.0",
+    "chipOptions": [
+      10000,
+      15000,
+      20000,
+      25000,
+      30000,
+      50000,
+      100000,
+      150000,
+      200000,
+      300000,
+      500000,
+      800000,
+      1000000,
+      2000000
+    ],
+    "symbol": "IR",
+    "mockUser": "VNQA_KL001_IRR"
+  },
+  "BWP": {
+    "casual": "5.0 - 100.0",
+    "expert": "20.0 - 400.0",
+    "highRoller": "50.0 - 1000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      30,
+      50,
+      100,
+      150,
+      200,
+      300,
+      500
+    ],
+    "symbol": "P",
+    "mockUser": "VNQA_KL001_BWP"
+  },
+  "NAD": {
+    "casual": "5.0 - 100.0",
+    "expert": "20.0 - 400.0",
+    "highRoller": "50.0 - 1000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      30,
+      50,
+      100,
+      150,
+      200,
+      300,
+      500
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_NAD"
+  },
+  "GMD": {
+    "casual": "15.0 - 300.0",
+    "expert": "30.0 - 750.0",
+    "highRoller": "150.0 - 7500.0",
+    "chipOptions": [
+      15,
+      20,
+      30,
+      40,
+      50,
+      100,
+      150,
+      300,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "symbol": "D",
+    "mockUser": "VNQA_KL001_GMD"
+  },
+  "AZN": {
+    "casual": "1.0 - 20.0",
+    "expert": "2.0 - 40.0",
+    "highRoller": "3.0 - 160.0",
+    "chipOptions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      16,
+      32
+    ],
+    "symbol": "₼",
+    "mockUser": "VNQA_KL001_AZN"
+  },
+  "IQD": {
+    "casual": "500.0 - 10000.0",
+    "expert": "1000.0 - 20000.0",
+    "highRoller": "5000.0 - 200000.0",
+    "chipOptions": [
+      500,
+      750,
+      1000,
+      1500,
+      2000,
+      3000,
+      5000,
+      7000,
+      20000,
+      30000,
+      50000,
+      100000
+    ],
+    "symbol": "ع.د",
+    "mockUser": "VNQA_KL001_IQD"
+  },
+  "KGS": {
+    "casual": "15.0 - 300.0",
+    "expert": "30.0 - 750.0",
+    "highRoller": "150.0 - 7500.0",
+    "chipOptions": [
+      15,
+      20,
+      30,
+      40,
+      50,
+      100,
+      150,
+      300,
+      500,
+      1000,
+      1500,
+      2000
+    ],
+    "symbol": "som",
+    "mockUser": "VNQA_KL001_KGS"
+  },
+  "MDL": {
+    "casual": "5.0 - 100.0",
+    "expert": "20.0 - 400.0",
+    "highRoller": "50.0 - 1000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      30,
+      50,
+      100,
+      150,
+      200,
+      300,
+      500
+    ],
+    "symbol": "L",
+    "mockUser": "VNQA_KL001_MDL"
+  },
+  "QAR": {
+    "casual": "1.0 - 50.0",
+    "expert": "5.0 - 100.0",
+    "highRoller": "10.0 - 500.0",
+    "chipOptions": [
+      1,
+      2,
+      5,
+      7,
+      10,
+      15,
+      25,
+      50,
+      100,
+      200
+    ],
+    "symbol": "QR",
+    "mockUser": "VNQA_KL001_QAR"
+  },
+  "TJS": {
+    "casual": "1.0 - 30.0",
+    "expert": "3.0 - 75.0",
+    "highRoller": "15.0 - 750.0",
+    "chipOptions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      15,
+      30,
+      50,
+      100,
+      150,
+      200
+    ],
+    "symbol": "ЅМ",
+    "mockUser": "VNQA_KL001_TJS"
+  },
+  "UZS": {
+    "casual": "3000.0 - 50000.0",
+    "expert": "5000.0 - 150000.0",
+    "highRoller": "35000.0 - 1500000.0",
+    "chipOptions": [
+      3000,
+      5000,
+      7000,
+      8000,
+      10000,
+      20000,
+      35000,
+      50000,
+      100000,
+      150000,
+      300000,
+      500000
+    ],
+    "symbol": "лв",
+    "mockUser": "VNQA_KL001_UZS"
+  },
+  "TVC": {
+    "casual": "500.0 - 5000.0",
+    "expert": "1000.0 - 10000.0",
+    "highRoller": "2000.0 - 50000.0",
+    "chipOptions": [
+      500,
+      700,
+      900,
+      1000,
+      1250,
+      1500,
+      1750,
+      2000,
+      3000,
+      4000,
+      5000,
+      10000,
+      15000
+    ],
+    "symbol": "$",
+    "mockUser": "VNQA_KL001_TVC"
+  },
+  "XAF": {
+    "casual": "500.0 - 5000.0",
+    "expert": "1000.0 - 10000.0",
+    "highRoller": "2000.0 - 50000.0",
+    "chipOptions": [
+      500,
+      700,
+      900,
+      1000,
+      1250,
+      1500,
+      1750,
+      2000,
+      3000,
+      4000,
+      5000,
+      10000,
+      15000
+    ],
+    "symbol": "F.CFA",
+    "mockUser": "VNQA_KL001_XAF"
+  },
+  "LBP": {
+    "casual": "15000.0 - 300000.0",
+    "expert": "30000.0 - 750000.0",
+    "highRoller": "150000.0 - 7500000.0",
+    "chipOptions": [
+      15000,
+      20000,
+      30000,
+      40000,
+      50000,
+      100000,
+      150000,
+      300000,
+      500000,
+      1000000,
+      1500000,
+      2000000
+    ],
+    "symbol": "LL",
+    "mockUser": "VNQA_KL001_LBP"
+  },
+  "CZK": {
+    "casual": "5.0 - 100.0",
+    "expert": "10.0 - 200.0",
+    "highRoller": "50.0 - 2000.0",
+    "chipOptions": [
+      5,
+      10,
+      20,
+      25,
+      30,
+      50,
+      100,
+      200,
+      300,
+      500,
+      1000
+    ],
+    "symbol": "Kč",
+    "mockUser": "VNQA_KL001_CZK"
+  },
+  "DKK": {
+    "casual": "3.0 - 30.0",
+    "expert": "12.0 - 120.0",
+    "highRoller": "30.0 - 600.0",
+    "chipOptions": [
+      3,
+      6,
+      9,
+      12,
+      20,
+      30,
+      60,
+      90,
+      120,
+      200,
+      300
+    ],
+    "symbol": "kr.",
+    "mockUser": "VNQA_KL001_DKK"
+  }
+}
